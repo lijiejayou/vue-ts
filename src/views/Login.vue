@@ -118,7 +118,7 @@ export default class extends Vue {
   width: 100%;
   height: 100%;
   /* background-color: aliceblue; */
-  background-image: url("../assets/bg2.png");
+  background-image: url("../assets/bg2.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }

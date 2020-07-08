@@ -76,6 +76,10 @@
           </template>
         </el-main>
       </el-container>
+      <iframe
+        src="https://zhanyuzhang.github.io/lovely-cat/cat.html"
+        frameborder="0"
+      ></iframe>
     </el-container>
   </div>
 </template>
@@ -146,3 +150,13 @@ export default class extends Vue {
   }
 }
 </script>
+
+<style scoped>
+#catIframe {
+  position: fixed;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-68%, -50%);
+}
+</style>
